@@ -1,0 +1,304 @@
+/*
+CSS for WP-Incafu
+Plugin URI: https://github.com/tazorax/wp-incafu/
+Description: Incafu web module
+Version: 1.0
+Author: Mathieu Cabaret
+*/
+
+/* Panier */
+div#panier_boutique_web_incafu {
+    text-align: right;
+    margin-bottom: 2px;
+}
+
+div#panier_incafu {
+    height: 36px;
+}
+
+span#infos_panier_incafu {
+    margin-top: 4px;
+    right: 420px;
+    display: block;
+    float: left;
+    position: absolute;
+}
+
+div#panier_incafu br {
+    display: none;
+}
+
+div#panier_incafu a {
+}
+
+/* Lien "AccÃ©der au panier" */
+div#image_panier_incafu {
+}
+
+span#lien_panier_incafu {
+}
+
+div#panier_incafu a, span#lien_panier_incafu a {
+    background-color: #24890d;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px 11px 50px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    vertical-align: bottom;
+    white-space: nowrap;
+    margin-left: 8px;
+}
+
+div#panier_incafu a:hover, span#lien_panier_incafu a:hover {
+    background-color: #41a62a;
+}
+
+div#panier_incafu a {
+    background-image: url('img/glyphicons_003_user.png');
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+}
+
+span#lien_panier_incafu a {
+    background-image: url('img/glyphicons_202_shopping_cart.png');
+}
+
+/* Lien "Se connecter" */
+
+#lien_navigation_panier,
+#lien_navigation_panier td,
+#frais_port_commande,
+#frais_port_commande table,
+#frais_port_commande td {
+    border: none;
+    vertical-align: middle;
+}
+
+#lien_navigation_panier td.poursuivre_vente,
+#lien_navigation_panier td.retour_boutique,
+#frais_port_commande td.retour_panier,
+#frais_port_commande td.poursuivre_vente {
+    text-align: center;
+}
+
+#lien_navigation_panier td.poursuivre_vente a,
+#lien_navigation_panier td.poursuivre_vente input[type="submit"],
+#lien_navigation_panier td.retour_boutique a,
+#frais_port_commande td.retour_panier a,
+#frais_port_commande td.poursuivre_vente a {
+    background-color: #24890d;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px 11px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+#lien_navigation_panier td.poursuivre_vente a:hover,
+#lien_navigation_panier td.poursuivre_vente input[type="submit"]:hover,
+#lien_navigation_panier td.retour_boutique a:hover,
+#frais_port_commande td.retour_panier a:hover,
+#frais_port_commande td.poursuivre_vente a:hover {
+    background-color: #41a62a;
+}
+
+/* Boutique */
+.boutique {
+    margin-bottom: 2em;
+}
+
+div#panneau_central_boutique_web_incafu {
+}
+
+/* Fil d'Ariane */
+div#panneau_central_boutique_web_incafu div.fil_ariane {
+}
+
+div#panneau_central_boutique_web_incafu div.fil_ariane a {
+}
+
+/* Listes */
+table#liste_categories {
+}
+
+table#liste_scategories {
+}
+
+table#liste_produit {
+}
+
+/* Fiche Produit */
+div#fiche_produit {
+    z-index: 500;
+}
+
+div#titre_description_courte {
+    margin-right: 210px;
+}
+
+span#titre_produit {
+    vertical-align: baseline;
+    clear: both;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    display: block;
+    margin: 12px 0 12px;
+}
+
+div#fiche_produit select {
+    margin-left: 3px;
+}
+
+div#fiche_produit #image_produit {
+    position: absolute;
+    right: 30px;
+    top: 420px;
+}
+
+#image_produit img {
+    height: 150px;
+}
+
+div#fiche_produit div#description_longue {
+    margin-right: 210px;
+}
+
+span#description_courte {
+    display: block;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+div#choix_date {
+    margin-bottom: 10px;
+}
+
+div#image_produit {
+}
+
+div#image_produit a.agrandissement_image {
+}
+
+div#image_produit img.image_principale {
+}
+
+/* Prix et ajout au panier */
+div#prix_ajout_panier {
+}
+
+div#prix_ajout_panier span {
+}
+
+div#prix_ajout_panier span.prix_produit {
+}
+
+div#prix_ajout_panier span.en_stock {
+    font-weight: bold;
+}
+
+div#prix_ajout_panier input.ajout_panier {
+}
+
+div.separateur_contenu {
+}
+
+/* Description longue */
+div#description_longue {
+}
+
+div#fiche_produit div.separateur_contenu {
+}
+
+table#liste_produit_panier td.suppression_ligne a {
+    display: block;
+    width: 32px;
+    height: 23px;
+    text-decoration: none;
+
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    vertical-align: bottom;
+
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    background-image: url('img/glyphicons_256_delete.png');
+    background-color: #24890d;
+}
+
+table#liste_produit_panier td.suppression_ligne a:hover {
+    background-color: #41a62a;
+}
+
+select.probleme {
+    border: 1px red solid;
+}
+
+span#erreur_panier {
+    color: red;
+}
+
+td.total_panier {
+    font-weight: bold;
+}
+
+#liste_produit_panier td.image_produit img {
+    height: 100px;
+}
+
+#plan_salle_billet {
+    position: relative;
+    height: 172px;
+    width: 902px;
+    z-index: 2;
+    background: #DDD;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#masque_ecran_incafu {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    background-image: url('img/white.png');
+}
+
+#masque_ecran_incafu_panier {
+    position: absolute;
+    z-index: 3;
+    text-align: left;
+}
+
+#masque_ecran_incafu_panier img {
+    height: 30px;
+    width: 30px;
+}
+
+.designation_produit {
+    vertical-align: middle;
+}
+
+#paniercomplet_infos_placement {
+    display: block;
+}
+
+#paniercomplet_infos_date {
+
+}
+
+#snippet-box {
+    display: none;
+}
